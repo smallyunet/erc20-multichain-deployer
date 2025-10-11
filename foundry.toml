@@ -53,3 +53,18 @@ bsc = { key = "${BSCSCAN_API_KEY}" }
 
 avalanche = { key = "${SNOWTRACE_API_KEY}" }
 fuji = { key = "${SNOWTRACE_API_KEY}" }
+
+[profile.sepolia-dev]
+out = "out-sepolia-dev"
+broadcast = "broadcast-sepolia-dev"
+cache_path = "cache-sepolia-dev"
+
+[profile.sepolia-prod]
+out = "out-sepolia-prod"
+broadcast = "broadcast-sepolia-prod"
+cache_path = "cache-sepolia-prod"
+
+[profile.mainnet]
+out = "out-mainnet"
+broadcast = "broadcast-mainnet"
+cache_path = "cache-mainnet"

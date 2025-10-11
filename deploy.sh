@@ -1,4 +1,7 @@
 # Base Sepolia
+export FOUNDRY_PROFILE=sepolia-dev
+export FOUNDRY_PROFILE=sepolia-prod
+
 forge script script/DeployERC20.s.sol:DeployERC20 \
   --rpc-url base-sepolia \
   --broadcast --verify -vvvv
