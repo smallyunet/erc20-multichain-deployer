@@ -68,3 +68,13 @@ cache_path = "cache-sepolia-prod"
 out = "out-mainnet"
 broadcast = "broadcast-mainnet"
 cache_path = "cache-mainnet"
+
+[profile.sepolia-weth]
+out = "out-sepolia-weth"
+broadcast = "broadcast-sepolia-weth"
+cache_path = "cache-sepolia-weth"
+
+[profile.sepolia-clp]
+out = "out-sepolia-clp"
+broadcast = "broadcast-sepolia-clp"
+cache_path = "cache-sepolia-clp"

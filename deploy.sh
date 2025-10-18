@@ -1,6 +1,8 @@
 # Base Sepolia
 export FOUNDRY_PROFILE=sepolia-dev
 export FOUNDRY_PROFILE=sepolia-prod
+export FOUNDRY_PROFILE=sepolia-weth
+export FOUNDRY_PROFILE=sepolia-clp
 
 forge script script/DeployERC20.s.sol:DeployERC20 \
   --rpc-url base-sepolia \
@@ -8,12 +10,15 @@ forge script script/DeployERC20.s.sol:DeployERC20 \
 
 # Ethereum Sepolia
 forge script script/DeployERC20.s.sol:DeployERC20 \
-  --rpc-url sepolia --broadcast --verify -vvvv
+  --rpc-url sepolia \
+  --broadcast --verify -vvvv
 
 # Arbitrum
 forge script script/DeployERC20.s.sol:DeployERC20 \
-  --rpc-url arbitrum --broadcast --verify -vvvv
+  --rpc-url arbitrum \
+  --broadcast --verify -vvvv
 
 # Polygon Amoy
 forge script script/DeployERC20.s.sol:DeployERC20 \
-  --rpc-url amoy --broadcast --verify -vvvv
+  --rpc-url amoy \
+  --broadcast --verify -vvvv
