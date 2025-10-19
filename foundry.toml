@@ -54,6 +54,7 @@ bsc = { key = "${BSCSCAN_API_KEY}" }
 avalanche = { key = "${SNOWTRACE_API_KEY}" }
 fuji = { key = "${SNOWTRACE_API_KEY}" }
 
+### Base sepolia network
 [profile.sepolia-dev]
 out = "out-sepolia-dev"
 broadcast = "broadcast-sepolia-dev"
@@ -69,6 +70,7 @@ out = "out-mainnet"
 broadcast = "broadcast-mainnet"
 cache_path = "cache-mainnet"
 
+### Base sepolia network
 [profile.sepolia-weth]
 out = "out-sepolia-weth"
 broadcast = "broadcast-sepolia-weth"
@@ -78,3 +80,14 @@ cache_path = "cache-sepolia-weth"
 out = "out-sepolia-clp"
 broadcast = "broadcast-sepolia-clp"
 cache_path = "cache-sepolia-clp"
+
+### Base network
+[profile.base-weth]
+out = "out-base-weth"
+broadcast = "broadcast-base-weth"
+cache_path = "cache-base-weth"
+
+[profile.base-clp]
+out = "out-base-clp"
+broadcast = "broadcast-base-clp"
+cache_path = "cache-base-clp"
